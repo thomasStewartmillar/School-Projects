@@ -106,42 +106,6 @@ def list_sorter_two_param(x, y):
     return listSort
 
 
-#def list_sorter_full_param(x, q, w, e, r, t, y):
-    #listKey = []
-    #listVal = []
-    #listSort = []
-    #dictionarySort = {}
-
-    #for title in bookList:
-        #listKey = []
-        #listVal = []
-        #fieldX = (title[x])
-        #fieldQ = (title[q])
-        #fieldW = (title[w])
-        #fieldE = (title[e])
-        #fieldR = (title[r])
-        #fieldT = (title[t])
-        #fieldY = (title[y])
-
-        #listKey.append(fieldX)
-        #listVal.append(fieldQ)
-        #listVal.append(fieldW)
-        #listVal.append(fieldE)
-        #listVal.append(fieldR)
-        #listVal.append(fieldT)
-        #listVal.append(fieldY)
-
-        #listSort = list(zip(listKey, listVal))
-        #print(listSort)
-        #dictionarySort.values(fieldQ, fieldW, fieldE, fieldR, fieldT, fieldY)
-
-    #print(listSort)
-    #print(listKey)
-    #print(listVal)
-    #dictionarySort = dict(zip(listKey, listVal))
-    #print(dictionarySort)
-
-
 def genre_sort():
     xAxis = []
     yAxis = []
