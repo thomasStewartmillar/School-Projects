@@ -27,6 +27,7 @@ public class UserInput
         {
             outputString = outputString.toUpperCase();
         }
+        input.close();
 
         return outputString;
     }// End method enterString
@@ -61,6 +62,7 @@ public class UserInput
             }
             userInput.nextLine();// Resets userInput Scanner to prevent infinite loop
         } while (inputError);
+        userInput.close();
 
         return outputVal;
     }// End method enterInt
